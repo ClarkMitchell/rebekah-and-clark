@@ -14,7 +14,9 @@
   },
   "dependencies": {
     "@nuxtjs/bulma": "^1.0.3",
+    "jarallax": "^1.10.6",
     "nuxt": "^1.0.0",
+    "vue-no-ssr": "^1.0.0",
     "vue-parallaxy": "^1.1.1"
   },
   "devDependencies": {
@@ -22,6 +24,7 @@
     "cross-env": "^5.0.1",
     "eslint": "^5.0.1",
     "eslint-loader": "^2.0.0",
-    "eslint-plugin-vue": "^4.0.0"
+    "eslint-plugin-vue": "^4.0.0",
+    "vue-parallax": "^1.1.1"
   }
 }

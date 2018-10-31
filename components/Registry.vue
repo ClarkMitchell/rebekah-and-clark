@@ -1,0 +1,27 @@
+<template>
+  <section
+    class="section is-large fullheight"
+    id="registry"
+  >
+    <div class="centered">
+      <h1 class="title has-text-centered">
+        Registry
+      </h1>
+      <h2 class="subtitle has-text-centered">
+        <a href="https://www.honeyfund.com/wedding/HartMitchell">
+          honeyfund.com/wedding/HartMitchell
+        </a>
+      </h2>
+    </div>
+  </section>
+</template>
+
+<script>
+  export default {
+
+  }
+</script>
+
+<style scoped>
+
+</style>

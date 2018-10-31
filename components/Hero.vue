@@ -14,31 +14,35 @@
 </template>
 
 <script>
-  import Parallax from 'vue-parallaxy';
-
   export default {
-    props: ['title', 'subtitle'],
-    components: {
-      Parallax
-    }
+    props: {
+      title: {
+        type: String,
+        default: "Rebekah and Clark"
+      },
+      subtitle: {
+        type: String,
+        default: "February 16, 2019"
+      }
+    },
   }
 </script>
 
 <style scoped>
-    h1.title {
-        font-family: 'Kaushan Script', cursive;
-        font-size: 10vw;
-        color: white;
-    }
+  h1.title {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 10vw;
+    color: #F8F8F8;
+  }
 
     h2.subtitle {
         font-family: 'Reenie Beanie', cursive;
         font-size: 7vw;
-        color: white;
+        color: #F8F8F8;
     }
 
-    .has-bg-image {
-        background: url("~/assets/hero.jpeg") left center;
-        background-size: cover;
-    }
+  .has-bg-image {
+    background: url("~/assets/hero.jpeg") left center;
+    background-size: cover;
+  }
 </style>

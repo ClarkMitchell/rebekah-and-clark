@@ -2,29 +2,40 @@
   <div id="navbar">
     <section class="is-fullheight is-bold">
       <nav class="navbar is-fixed-top is-transparent">
-          <div class="navbar-brand">
-            <a class="navbar-item" href="/">
-              <img src="~/assets/celtic-heart.png" alt="Logo">
+        <div class="navbar-brand">
+          <a 
+            class="navbar-item" 
+            href="/">
+            <img 
+              src="~/assets/celtic-heart.png" 
+              alt="Logo">
+          </a>
+          <div 
+            class="navbar-burger" 
+            @click="showNav = !showNav" 
+            :class="{ 'is-active': showNav }">
+            <span/>
+            <span/>
+            <span/>
+          </div>
+        </div>
+        <div 
+          class="navbar-menu" 
+          :class="{ 'is-active': showNav }"
+          @click="disable"
+        >
+          <div class="navbar-end">
+            <a
+              v-for="(link, index) in links"
+              :key=index
+              class="navbar-item has-text-centered"
+              :href=link.url
+            >
+              {{ link.title }}
             </a>
-            <div class="navbar-burger" @click="showNav = !showNav" :class="{ 'is-active': showNav }">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
           </div>
-          <div class="navbar-menu" :class="{ 'is-active': showNav }">
-            <div class="navbar-end">
-              <a
-                v-for="(link, index) in links"
-                :key=index
-                class="navbar-item has-text-centered"
-                :href=link.url
-              >
-                {{ link.title }}
-              </a>
-            </div>
-          </div>
-        </nav>
+        </div>
+      </nav>
     </section>
   </div>
 </template>
@@ -53,6 +64,11 @@
           }
         ]
       }
+    },
+    methods: {
+      disable: function() {
+        this.showNav = !this.showNav;
+      }
     }
   }
 
@@ -68,6 +84,10 @@
   }
 
   .navbar-menu.is-active {
-    background-color: rgba(0, 0, 0, .1);
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .navbar-item:hover {
+    background-color: rgba(0, 0, 0, .11) !important;
   }
 </style>
