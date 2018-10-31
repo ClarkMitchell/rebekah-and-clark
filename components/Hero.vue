@@ -42,7 +42,7 @@
     }
 
   .has-bg-image {
-    background: url("/hero.jpeg") left center;
+    background: url("~assets/hero.jpeg") left center;
     background-size: cover;
   }
 </style>

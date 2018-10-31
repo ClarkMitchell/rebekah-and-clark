@@ -7,7 +7,7 @@
             class="navbar-item" 
             href="/">
             <img 
-              src="/celtic-heart.png"
+              src="~assets/celtic-heart.png"
               alt="Logo">
           </a>
           <div 
