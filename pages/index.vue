@@ -38,7 +38,7 @@
 
 <style>
   h1.title {
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Reenie Beanie', cursive;
     font-size: 10vw;
     color: #707072;
   }

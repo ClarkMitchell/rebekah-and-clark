@@ -21,7 +21,7 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Kaushan+Script|Reenie+Beanie' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Dawning+of+a+New+Day|Reenie+Beanie' },
     ]
   },
 

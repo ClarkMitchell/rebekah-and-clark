@@ -30,15 +30,15 @@
 
 <style scoped>
   h1.title {
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Dawning of a New Day', cursive;
     font-size: 10vw;
-    color: #F8F8F8;
+    color: rgba(255, 255, 255, 0.8);
   }
 
     h2.subtitle {
         font-family: 'Reenie Beanie', cursive;
         font-size: 7vw;
-        color: #F8F8F8;
+        color: rgba(255, 255, 255, 0.8);;
     }
 
   .has-bg-image {
