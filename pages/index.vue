@@ -8,11 +8,11 @@
         />
       </div>
       <date />
-      <img src="~/assets/hands.jpeg">
+      <img src="/hands.jpeg">
       <location />
-      <img src="~/assets/dark.jpeg">
+      <img src="/dark.jpeg">
       <registry />
-      <img src="~/assets/walk.jpeg">
+      <img src="/walk.jpeg">
       <rsvp />
     </section>
   </div>
