@@ -7,7 +7,6 @@ const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
 } : {}
 
 module.exports = {
-  ...routerBase,
   mode: 'universal',
 
   /*
