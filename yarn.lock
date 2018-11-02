@@ -3778,6 +3778,11 @@ number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
 
+nuxt-device-detect@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/nuxt-device-detect/-/nuxt-device-detect-1.1.2.tgz#b8a08c24638c1af79f0929db07923fd879aa7a27"
+  integrity sha512-V7/uzfV8W2xnSloV9IO06YKstnM9H4LpXOOofqFShMT1o1Bb4y7skpscjs1ewZAKJEHT+CUi1kHuQ939O3CjQQ==
+
 nuxt@^1.0.0:
   version "1.4.4"
   resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-1.4.4.tgz#24972a5130eaf6781d757973446ac1759b20f815"

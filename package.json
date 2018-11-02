@@ -18,6 +18,7 @@
     "@nuxtjs/bulma": "^1.0.3",
     "jarallax": "^1.10.6",
     "nuxt": "^1.0.0",
+    "nuxt-device-detect": "^1.1.2",
     "vue-no-ssr": "^1.0.0",
     "vue-parallaxy": "^1.1.1",
     "vue-scroll-reveal": "^1.0.11"

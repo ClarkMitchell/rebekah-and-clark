@@ -10,11 +10,11 @@
       <h1 class="title has-text-centered">
         Registry
       </h1>
-      <h2 class="subtitle has-text-centered">
+      <h3 class="subtitle has-text-centered">
         <a href="https://www.honeyfund.com/wedding/HartMitchell">
           honeyfund.com/wedding/HartMitchell
         </a>
-      </h2>
+      </h3>
     </div>
   </section>
 </template>
