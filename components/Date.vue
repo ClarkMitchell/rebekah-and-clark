@@ -1,9 +1,12 @@
 <template>
   <section
-    class="section is-large fullheight"
+    class="section is-large"
     id="date"
   >
-    <div class="centered">
+    <div
+      class="centered fullheight"
+      v-scroll-reveal.reset
+    >
       <h1 class="title has-text-centered">
         Date
       </h1>

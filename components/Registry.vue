@@ -1,9 +1,12 @@
 <template>
   <section
-    class="section is-large fullheight"
+    class="section is-large"
     id="registry"
   >
-    <div class="centered">
+    <div
+      class="centered fullheight"
+      v-scroll-reveal.reset
+    >
       <h1 class="title has-text-centered">
         Registry
       </h1>

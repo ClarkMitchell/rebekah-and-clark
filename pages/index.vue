@@ -8,11 +8,20 @@
         />
       </div>
       <date />
-      <img src="~assets/hands.jpeg">
+      <img
+        class="image container"
+        src="~assets/hands.jpeg"
+      >
       <location />
-      <img src="~assets/dark.jpeg">
+      <img
+        class="image container"
+        src="~assets/dark.jpeg"
+      >
       <registry />
-      <img src="~assets/walk.jpeg">
+      <img
+        class="image container"
+        src="~assets/walk.jpeg"
+      >
       <rsvp />
     </section>
   </div>
@@ -57,9 +66,5 @@
 
   .fullheight {
     height: 100vh;
-  }
-
-  .centered {
-    padding-top: 10vh;
   }
 </style>
