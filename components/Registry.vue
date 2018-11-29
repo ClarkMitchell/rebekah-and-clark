@@ -5,7 +5,6 @@
   >
     <div
       class="centered fullheight"
-      v-scroll-reveal.reset
     >
       <h1 class="title has-text-centered">
         Registry
